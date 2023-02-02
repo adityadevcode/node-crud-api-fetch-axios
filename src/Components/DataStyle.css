@@ -1,0 +1,38 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  
+  .flex-large {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  input[type='text'] {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    padding: 10px 40px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .muted-button {
+    background-color: purple;
+  }
+  
